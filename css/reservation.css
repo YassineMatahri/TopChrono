@@ -1,0 +1,187 @@
+/* Feuille de style css Réservation */
+/* Crée par Yassine Matahri-21/12/2021 */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: #05FAD9;
+
+}
+
+#logo {
+    width: 250px;
+    margin-top: 3px;
+    margin-left: 3px
+}
+
+.navbar {
+    display: block;
+    float: right;
+    position: relative;
+    right: 0.1%;
+    bottom: 0.3em;
+}
+
+.navbar .nav-item:hover .nav-link:hover {
+    color: #FB5004;
+}
+
+
+.piedDePage {
+    text-align: center;
+    margin-top: 5em;
+    background-color: #05FAD9;
+}
+
+.navbarDropdownMenuLink {
+    background-color: #FB5004;
+}
+
+
+#lieninscrire {
+    margin-bottom: 3em;
+}
+
+ul {
+    list-style: none;
+}
+
+.titreFooter {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.lesLiens {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #FB5004;
+}
+
+
+.logoReseaux {
+    font-size: 1.5em;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.fa-facebook-square {
+    color: black;
+}
+
+.fa-facebook-square:hover {
+    color: #1877F2;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+.fa-instagram:hover {
+    color: #C13584;
+}
+
+.fa-twitter {
+    color: black;
+}
+
+.fa-twitter:hover {
+    color: #1D9BF0;
+}
+
+.fa-snapchat-ghost {
+    color: black;
+}
+
+.fa-snapchat-ghost:hover {
+    color: #FFFD01;
+}
+
+.fa-map-pin {
+    margin-right: 0.3em;
+}
+
+.fa-map-pin:hover {
+    color: white;
+}
+
+.fa-phone-alt {
+    margin-right: 0.3em;
+}
+
+.fa-phone-alt:hover {
+    color: white;
+}
+
+.fa-at {
+    margin-right: 0.3em;
+}
+
+.fa-at:hover {
+    color: white;
+}
+
+.titrePrincipal {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1em;
+}
+
+h1 {
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.monFormulaire {
+    text-align: center;
+}
+
+.aRemplir {
+    margin-top: 5vh;
+}
+
+img {
+
+    width: 400px;
+}
+
+.espaceEntreMesBlocs {
+    margin-top: 3vh;
+}
+
+.box {
+    margin-left: 5vh;
+}
+
+a.active {
+    color: blue;
+}
+
+.myButton {
+    background-color: #FB5004;
+    border-color: #FB5004;
+    color: white;
+}
+
+.myButton:hover {
+    background-color: #05FAD9;
+    color: black;
+}

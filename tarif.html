@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Top Chrono</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/tarif.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="img/logoTopChrono.png" alt="logo ">
+        <!-- Début de ma bar nav -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="A_prpos.html">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="securite.html">Sécurité</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tarif</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservation.html">Réservation</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Connexion/Inscription
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="connexion.html">Se Connecter</a></li>
+                                <li><a class="dropdown-item" href="inscription.html">S'inscrire</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- fin de ma bar nav -->
+    </header>
+    <main>
+        <div class="container ">
+            <div class="row monText">
+
+                <div>
+                    <div class="row ">
+                        <div class="col-xs-12 ">
+                            <!-- <table class="table table-bordered border-primary couleurTableau"-->
+                            <h1>LES ABONNEMENTS</h1>
+                            <table class="table table-striped">
+
+
+                                <tbody>
+
+                                    <tr>
+                                        <td></td>
+                                        <td class="titreTableau">Forfait course</td>
+
+                                        <td class="titreTableau">Forfait course plus</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="titreTableau">Prix :</td>
+                                        <td>À partir de 5€</td>
+                                        <td>150€</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="titreTableau">Durée :</td>
+                                        <td>3O min</td>
+                                        <td>illimité</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="titreTableau">Distance :</td>
+                                        <td>10 km</td>
+                                        <td>illimité</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="titreTableau">Nombre de personnes :</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="titreTableau">Avantage :</td>
+                                        <td>NON</td>
+                                        <td>OUI</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="row piedDePage">
+            <div class="col-md-3">
+                <p class="titreFooter">Informations</p>
+                <ul>
+
+                    <li> <i class="fas fa-map-pin"></i> 38 Rue de Caumartin 75009 Paris</li>
+
+                    <li> <i class="fas fa-phone-alt"></i>0149302977</li>
+                    <li><i class="fas fa-at"></i> Topchrono75@gmail.com</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <p class="titreFooter">Mon compte</p>
+                <a class="lesLiens" href="connexion.html">Se Connecter</a>
+                <br>
+                <a class="lesLiens" id="lieninscrire" href="inscription.html">S'inscrire</a>
+
+            </div>
+            <div class="col-md-3  ">
+                <p class="titreFooter">suivez-nous</p>
+                <p class="logoReseaux">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-snapchat-ghost"></i> </a>
+                </p>
+            </div>
+            <div class="col-md-3">
+                <p class="titreFooter">Mentions Légales</p>
+                <a class="lesLiens" href="#">Mentions légal</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS bundle  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

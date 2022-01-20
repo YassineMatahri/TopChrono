@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Top Chrono</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reservation.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="img/logoTopChrono.png" alt="logo ">
+        <!-- Début de ma bar nav -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="A_prpos.html">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="securite.html">Sécurité</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tarif.html">Tarif</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Réservation</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Connexion/Inscription
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="connexion.html">Se Connecter</a></li>
+                                <li><a class="dropdown-item" href="inscription.html">S'inscrire</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- fin de ma bar nav -->
+    </header>
+    <main>
+        <div class="monFormulaire">
+            <h1>Réservez</h1>
+            <p>Envie de vous déplacez rapidement ! TopChrono est la pour vous, réservez vite votre course !</p>
+            <img src="img/clientebraslevertelephonealamain2.jpeg" alt="une dame qui leve son bras">
+            <form action="#" method="post">
+                <div class="aRemplir">
+                    <div class="espaceEntreMesBlocs">
+                        <label>Départ de : </label>
+                        <select name="departDe" id="depardDe" required>
+                            <option value="">----</option>
+                            <option value="ville">Paris 1-75001</option>
+                            <option value="ville">Paris 2-75002</option>
+                            <option value="ville">Paris 3-75003</option>
+                            <option value="ville">Paris 4-75004</option>
+                            <option value="ville">Paris 5-75005</option>
+                            <option value="ville">Paris 6-75006</option>
+                            <option value="ville">Paris 7-75007</option>
+                            <option value="ville">Paris 8-75008</option>
+                            <option value="ville">Paris 9-75009</option>
+                            <option value="ville">Paris 10-75010</option>
+                            <option value="ville">Paris 11-75011</option>
+                            <option value="ville">Paris 12-75012</option>
+                            <option value="ville">Paris 13-75013</option>
+                            <option value="ville">Paris 14-75014</option>
+                            <option value="ville">Paris 15-75015</option>
+                            <option value="ville">Paris 16-75016</option>
+                            <option value="ville">Paris 17-75017</option>
+                            <option value="ville">Paris 18-75018</option>
+                            <option value="ville">Paris 19-75019</option>
+                            <option value="ville">Paris 20-75020</option>
+
+                        </select>
+
+                        <label class="box">Arrivée à : </label>
+                        <select name="arriveeA" id="arriveeA" required>
+                            <option value="">----</option>
+                            <option value="ville">Paris 1-75001</option>
+                            <option value="ville">Paris 2-75002</option>
+                            <option value="ville">Paris 3-75003</option>
+                            <option value="ville">Paris 4-75004</option>
+                            <option value="ville">Paris 5-75005</option>
+                            <option value="ville">Paris 6-75006</option>
+                            <option value="ville">Paris 7-75007</option>
+                            <option value="ville">Paris 8-75008</option>
+                            <option value="ville">Paris 9-75009</option>
+                            <option value="ville">Paris 10-75010</option>
+                            <option value="ville">Paris 11-75011</option>
+                            <option value="ville">Paris 12-75012</option>
+                            <option value="ville">Paris 13-75013</option>
+                            <option value="ville">Paris 14-75014</option>
+                            <option value="ville">Paris 15-75015</option>
+                            <option value="ville">Paris 16-75016</option>
+                            <option value="ville">Paris 17-75017</option>
+                            <option value="ville">Paris 18-75018</option>
+                            <option value="ville">Paris 19-75019</option>
+                            <option value="ville">Paris 20-75020</option>
+
+                        </select>
+                    </div>
+                    <div class="espaceEntreMesBlocs">
+                        <label for="start"> Date de départ : </label>
+
+                        <input type="date" id="start" name="trip-start" required>
+                        <label>Choisissez votre heure de départ : </label>
+                        <input type="time" id="time" name="time" required>
+
+
+                        <label>Nombre de Personne</label>
+                        <select name="personne" id="personne" required>
+                            <option value="">-</option>
+                            <option value="nombredePersonne">1</option>
+                            <option value="nombredePersonne">2</option>
+                        </select>
+                        <div class="espaceEntreMesBlocs">
+                            <button type="submit" class="btn btn-primary myButton">S'IDENTIFIER</button>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </main>
+    <footer>
+        <div class="row piedDePage">
+            <div class="col-md-3">
+                <p class="titreFooter">Informations</p>
+                <ul>
+
+                    <li> <i class="fas fa-map-pin"></i> 38 Rue de Caumartin 75009 Paris</li>
+
+                    <li> <i class="fas fa-phone-alt"></i>0149302977</li>
+                    <li><i class="fas fa-at"></i> Topchrono75@gmail.com</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <p class="titreFooter">Mon compte</p>
+                <a class="lesLiens" href="connexion.html">Se Connecter</a>
+                <br>
+                <a class="lesLiens" id="lieninscrire" href="inscription.html">S'inscrire</a>
+
+            </div>
+            <div class="col-md-3  ">
+                <p class="titreFooter">suivez-nous</p>
+                <p class="logoReseaux">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                </p>
+            </div>
+            <div class="col-md-3">
+                <p class="titreFooter">Mentions Légales</p>
+                <a class="lesLiens" href="#">Mentions légal</a>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Bootstrap JS bundle  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- JS -->
+
+</body>
+
+</html>

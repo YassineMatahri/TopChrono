@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Top Chrono</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/inscription.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="img/logoTopChrono.png" alt="logo ">
+        <!-- Début de ma bar nav -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="A_prpos.html">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="securite.html">Sécurité</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tarif.html">Tarif</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservation.html">Réservation</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Connexion/Inscription
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="connexion.html">Se Connecter</a></li>
+                                <li><a class="dropdown-item" href="#">S'inscrire</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- fin de ma bar nav -->
+    </header>
+    <main>
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-xs-12">
+                    <p></p>
+                </div>
+            </div>
+            <div class="row titrePrincipal">
+                <div class="col-md-12">
+                    <h1>Inscription</h1>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-4"><img class="uneFemmeQuiReserve" src="img/telephoneappeltaxivelo.png"
+                        alt="une femme qui reserve son taxi" width="500"></div>
+                <div class="col-md-2"></div>
+
+                <div class="col-md-4">
+                    <form>
+                        <label for="inputState" class="form-label">Civilité</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>...</option>
+                            <option>M</option>
+                            <option>MME</option>
+                            <option>MLLE</option>
+                        </select>
+                        <label for="inputlastname" class="form-label">Nom de famille</label>
+                        <input type="text" class="form-control" id="inputlastname" placeholder="Matahri" required>
+                        <label for="inputFirstname" class="form-label">Prénom</label>
+                        <input type="text" class="form-control" id="inputFirstname" placeholder="Yassine" required>
+                        <label for="inputEmail4" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="votremail@gmail.com"
+                            required>
+                        <label for="inputPassword4" class="form-label">Mot de passe</label>
+                        <input type="password" class="form-control" id="inputPassword4" required>
+                        <label for="inputAddress2" class="form-label">Adresse </label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="12 rue de Paris"
+                            required>
+                        <label for="inputCity" class="form-label">Ville</label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="Paris" required>
+                        <button type="submit" class="btn btn-primary myButton">S'enregistrer </button>
+                    </form>
+                </div>
+
+                <div class="col-md-1"></div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="row piedDePage">
+            <div class="col-md-3">
+                <p class="titrePied">Informations</p>
+                <ul>
+
+                    <li> <i class="fas fa-map-pin"></i> 38 Rue de Caumartin 75009 Paris</li>
+
+                    <li> <i class="fas fa-phone-alt"></i>0149302977</li>
+                    <li><i class="fas fa-at"></i> Topchrono75@gmail.com</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <p class="titreFooter">Mon compte</p>
+                <a class="lesLiens" href="connexion.html">Se Connecter</a>
+                <br>
+                <a class="lesLiens" id="lieninscrire" href="inscription.html">S'inscrire</a>
+
+            </div>
+            <div class="col-md-3  ">
+                <p class="titreFooter">suivez-nous</p>
+                <p class="logoReseaux">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-snapchat-ghost"></i> </a>
+                </p>
+            </div>
+            <div class="col-md-3">
+                <p class="titreFooter">Mentions Légales</p>
+                <a class="lesLiens" href="#">Mentions légal</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS bundle  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- JS -->
+
+</body>
+
+</html>
